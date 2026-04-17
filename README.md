@@ -17,3 +17,11 @@ Sistema avançado de gestão de eventos e bilhetes com Inteligência Artificial.
 ## 🛠 Comandos Admin
 - `.confirmar [ID]` : Gera e envia o bilhete ao cliente.
 - `.relatorio` : Gera planilha Excel com todas as vendas.
+
+cd ~/bot-startup-pro
+git init
+git add .
+git commit -m "Add: Agent AI + Bilheteria Digital"
+git branch -M main
+git remote add origin https://github.com/Elisio-10/startup-agent-pro.git
+git push -u origin main
