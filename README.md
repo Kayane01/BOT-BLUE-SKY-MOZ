@@ -25,3 +25,20 @@ git commit -m "Add: Agent AI + Bilheteria Digital"
 git branch -M main
 git remote add origin https://github.com/Elisio-10/startup-agent-pro.git
 git push -u origin main
+
+Instalar Dependências:
+code
+Bash
+pkg install nodejs -y
+npm install
+Ligar o Bot:
+code
+Bash
+node index.js
+Coloque seu número e conecte no WhatsApp.
+Manter Online 24h:
+code
+Bash
+npm install pm2 -g
+pm2 start index.js --name "bot-startup"
+pm2 save
