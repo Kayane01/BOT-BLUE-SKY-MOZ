@@ -1,4 +1,7 @@
-{
+"scripts": {
+  "start": "node index.js",
+  "heroku-postbuild": "npm install --legacy-peer-deps"
+}{
   "name": "startup-agent-elite",
   "version": "3.0.0",
   "description": "Agent IA + Bilheteria Moçambique + Gestor de Grupos",
